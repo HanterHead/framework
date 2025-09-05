@@ -1,0 +1,21 @@
+{
+  "name": "any-key/php_cms",
+  "autoload": {
+    "psr-4": {
+      "AnyKey\\PhpCms\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Andew Lynx",
+      "email": "3dben@mail.ru"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Engine\\": "engine",
+      "Engine\\DI\\": "engine/DI"
+    }
+  }
+}
